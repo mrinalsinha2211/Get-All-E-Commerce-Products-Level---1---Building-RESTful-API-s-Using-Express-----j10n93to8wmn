@@ -27,6 +27,6 @@ res.status(200).json({
 }else{
   res.status(404).json({message:"Product not found"});
 }
-}
+}):
 
 module.exports = app;
